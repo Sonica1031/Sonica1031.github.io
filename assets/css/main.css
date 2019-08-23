@@ -84,12 +84,12 @@ input, select, textarea {
 
 	body {
 		background-color: #183026;
-		background: url("images/overlay.png"), url('images/Background.jpg');
-		background-repeat: repeat, no-repeat;
-		background-size: auto, cover;
-		background-position: top left, center 0;
-		background-attachment: fixed, fixed;
-		font-family: 'Source Sans Pro', sans-serif;
+		background: url('images/Background.jpg');
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: center 0;
+		background-attachment: fixed;
+		font-family: sans-serif;
 		font-size: 18pt;
 		line-height: 1.75em;
 		font-weight: 300;
@@ -100,8 +100,8 @@ input, select, textarea {
 	}
 
 		body.is-scroll {
-			background-attachment: scroll, scroll;
-			background-size: auto, 100% auto;
+			background-attachment: scroll;
+			background-size: 100% auto;
 		}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
