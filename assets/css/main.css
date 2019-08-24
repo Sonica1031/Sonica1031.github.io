@@ -2356,7 +2356,7 @@ input, select, textarea {
 				background-image: url("../../images/bg-alt.PNG");
 				background-repeat: no-repeat;
 				background-size: 100% auto;
-				background-position: top center;
+				background-position: center;
 				background-attachment: scroll;
 				font-size: 14pt;
 			}
