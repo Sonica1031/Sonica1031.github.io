@@ -2644,3 +2644,8 @@ input, select, textarea {
 			}
 
 	}
+
+	.MyFace{
+		width: 250px;
+		height: 350px;
+	}
