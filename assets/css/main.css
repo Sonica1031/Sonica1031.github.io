@@ -2644,10 +2644,13 @@ input, select, textarea {
 			}
 
 	}
-
+	.Makingitwork{
+		display: flex;
+		flex-direction: row-reverse;
+		justify-content: space-around;
+	}
 	.imagefit{
 		display:flex;
 		width: 250px;
 		height: 350px;
-		justify-content: flex-start;
 	}
