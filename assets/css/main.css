@@ -2645,7 +2645,9 @@ input, select, textarea {
 
 	}
 
-	.MyFace{
+	.imagefit{
+		display:flex;
 		width: 250px;
 		height: 350px;
+		justify-content: flex-start;
 	}
