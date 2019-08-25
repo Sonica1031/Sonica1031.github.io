@@ -2355,7 +2355,7 @@ input, select, textarea {
 				background-color: #203936;
 				background-image: url("../../images/bg.PNG");
 				background-repeat: no-repeat;
-				background-size: 100% auto;
+				background-size: cover;
 				background-position: center;
 				background-attachment: scroll;
 				font-size: 14pt;
