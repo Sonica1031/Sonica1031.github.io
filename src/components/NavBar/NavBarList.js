@@ -6,7 +6,7 @@ const NavBarList = prop => {
     return (
    <div>
        
-    <Link to = {prop.html}>
+    <Link exact to = {prop.html}>
         {prop.props}
     </Link>
     </div>
