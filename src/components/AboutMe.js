@@ -13,7 +13,7 @@ function AboutMe(){
             React and gain a better understanding of the concepts that I am learning
             in school.
         </p>
-        <img src={MyFace} width="500px" />
+        <img src={MyFace} width="400px" />
         </div>
     </div>
     );
