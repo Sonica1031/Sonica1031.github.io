@@ -109,6 +109,11 @@ html {
     background-position: cover;
     background-size: cover;
   }
+    @media only screen and (max-width:414px){
+      body{
+      background: url(".//components/images/backgroundtiny.png")
+    }
+  }
   
   p{
     color: white;
@@ -118,5 +123,4 @@ html {
   }
   .TopImage{
     left: 0px;
-    display:flex;
   }
