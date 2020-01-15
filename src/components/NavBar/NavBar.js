@@ -10,14 +10,15 @@ function NavBar() {
 return (
     <ButtonDropdown isOpen={dropdownOpen} toggle={toggle}>
         <DropdownToggle>
-            Menu
+            <span className="Dropdown">Menu</span>
         </DropdownToggle>
         <DropdownMenu>
-    <nav className = "NavBar">
-        {navItems.map(x => <DropdownItem><NavBarList props = {x.title} html = {x.value + ".html"} /> <DropdownItem divider></DropdownItem></DropdownItem>)}
+    <nav className="Navbar">
+        {navItems.map(x => <DropdownItem><NavBarList props = {x.title} html = {`/${x.value}`} /> <DropdownItem divider></DropdownItem></DropdownItem>)}
     </nav>
     </DropdownMenu>
     </ButtonDropdown>
+    
 )
 };
 export default NavBar;

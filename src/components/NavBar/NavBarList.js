@@ -1,14 +1,15 @@
 import React, {useState} from "react";
-import { ButtonDropdown, DropdownToggle, DropdownMenu, DropdownItem } from 'reactstrap';
+import { Link } from "react-router-dom"
 
 const NavBarList = prop => {
-
+    console.log(prop)
     return (
-   
-    <a href = {prop.html}>
+   <div>
+       
+    <Link to = {prop.html}>
         {prop.props}
-    </a>
-
+    </Link>
+    </div>
     
     )
 }

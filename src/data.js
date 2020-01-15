@@ -59,22 +59,22 @@ export const workHistory= [{
 export const navItems = [{
     id: "1",
     title: "About Me",
-    value: "About_Me"
+    value: "about-me"
 },
 {
     id: "2",
     title: "Work experience",
-    value: "Work_experience"
+    value: "work-experience"
 },
 {
     id: "3",
     title: "Prices",
-    value: "Prices"
+    value: "prices"
 },
 {
     id: "4",
     title: "Home",
-    value: "Index"
+    value: "home"
 },
 ];
 
