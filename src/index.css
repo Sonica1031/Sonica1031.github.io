@@ -88,6 +88,7 @@ html {
     padding : 10px;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    align-items: center;
   }
   .Dropdown{
     font-size: 4rem;
