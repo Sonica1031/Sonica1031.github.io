@@ -11,7 +11,7 @@ import SideImage from './components/images/SideImage.png';
 function App() {
   return (
     <div className="TopImage">
-      <img src={SideImage} />
+      <img src={SideImage} alt="Other Flower" />
     <div className="container">
     <div className="App"> 
         <h1 className="Title">Stephanie's Portfolio</h1>

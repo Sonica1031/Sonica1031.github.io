@@ -154,3 +154,13 @@ html {
   height: 350px;
   background: orange;
 }
+
+.btns{
+  background-color:white;
+  color: orange;
+  text-align: center;
+  font-size: 2rem;
+  height: 40px;
+  width: 90px;
+  border-radius: 100%;
+}
