@@ -1,7 +1,10 @@
 [[redirects]]
 from = "/*"
 to = "/index.html"
-status = 302
+status = 200
+
+
+
 
 # Default site wide settings
 [build.processing]
