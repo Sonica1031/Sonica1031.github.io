@@ -9,15 +9,13 @@ const WorkHistoryCard = prop =>{
 
     const next = () =>{
         if(activelyShowing) return;
-        const nextIndex = activeIndex === items.length - 1 ? 0 : activeIndex + 1;
+        const nextIndex = activeIndex === workHistory.length - 1 ? 0 : activeIndex + 1;
         setIndex(nextIndex);
-        console.log(setIndex);
     }
     const previous = () => {
         if(activelyShowing) return;
-        const nextIndex = activeIndex === 0 ? items.length -1 : activeIndex - 1;
+        const nextIndex = activeIndex === 0 ? workHistory.length -1 : activeIndex - 1;
         setIndex(nextIndex);
-        console.log(setIndex);
     }
 
     const goToIndex = (newIndex) => {
@@ -31,7 +29,7 @@ const WorkHistoryCard = prop =>{
     
         className="custom-tag"
         tag="div"
-        key={x.id}
+        key={activeIndex}
         onExiting={() => setShowing(true)}
         onExited={() => setShowing(false)}>
         <div className="cardDiv">
