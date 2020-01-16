@@ -107,7 +107,7 @@ html {
   
   body {
     background: url("./components/images/background.png");
-    background-position: cover;
+    background-position: top center;
     background-size: cover;
   }
     @media only screen and (max-width:1000px){
@@ -134,4 +134,18 @@ html {
   .AboutTheme{
     flex-direction: column;
   }
+}
+
+.WHPTag{
+  color: orange;
+  font-size: 3rem;
+}
+.cardDiv{
+  padding: 10px;
+}
+
+.custom-tag {
+  max-width: 100%;
+  height: 350px;
+  background: black;
 }
