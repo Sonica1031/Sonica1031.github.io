@@ -65,25 +65,26 @@ export const workHistory= [{
 ];
 
 export const navItems = [{
-    id: "1",
+        id: "1",
+        title: "Home",
+        value: ""
+},
+{
+ 
+    id: "2",
     title: "About Me",
     value: "about-me"
 },
 {
-    id: "2",
+    id: "3",
     title: "Work experience",
     value: "work-experience"
 },
 {
-    id: "3",
+    id: "4",
     title: "Prices",
     value: "prices"
-},
-{
-    id: "4",
-    title: "Home",
-    value: ""
-},
+}
 ];
 
 export default workHistory;
