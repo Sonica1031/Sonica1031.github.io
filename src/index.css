@@ -145,6 +145,8 @@ html {
 }
 
 .custom-tag {
+  display:flex;
+  justify-content: space-evenly;
   width: 400px;
   height: 350px;
   background: black;
