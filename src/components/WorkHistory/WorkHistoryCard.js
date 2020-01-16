@@ -11,13 +11,13 @@ const WorkHistoryCard = prop =>{
         if(activelyShowing) return;
         const nextIndex = setIndex === workHistory.length - 1 ? 0 : activeIndex + 1;
         setIndex(nextIndex);
-        console.log(nextIndex);
+        console.log(setIndex);
     }
     const previous = () => {
         if(activelyShowing) return;
         const nextIndex = setIndex === 0 ? workHistory.length -1 : activeIndex - 1;
         setIndex(nextIndex);
-        console.log(nextIndex);
+        console.log(setIndex);
     }
 
     const goToIndex = (newIndex) => {
