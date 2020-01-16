@@ -1,3 +1,8 @@
+[[redirects]]
+from = "/*"
+to = "/index.html"
+status = 200
+
 # Default site wide settings
 [build.processing]
   skip_processing = true
