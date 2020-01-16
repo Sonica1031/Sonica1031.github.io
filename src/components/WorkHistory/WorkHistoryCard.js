@@ -5,7 +5,7 @@ import workHistory from "../../data";
 const WorkHistoryCard = prop =>{
 
     const [activeIndex, setIndex] = useState(0);
-    const [activelyShowing, setShowing] = useState(false);
+    const [activelyShowing, setShowing] = useState(true);
 
     const next = () =>{
         if(activelyShowing) return;
