@@ -29,7 +29,7 @@ const WorkHistoryCard = prop =>{
     
         className="custom-tag"
         tag="div"
-        key={workHistory.id}
+        key={x.id}
         onExiting={() => setShowing(true)}
         onExited={() => setShowing(false)}>
         <div className="cardDiv">
