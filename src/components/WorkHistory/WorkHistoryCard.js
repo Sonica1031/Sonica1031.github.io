@@ -26,6 +26,7 @@ const WorkHistoryCard = prop =>{
     return (
       
         <CarouselItem
+    
         className="custom-tag"
         tag="div"
         key={workHistory.id}
