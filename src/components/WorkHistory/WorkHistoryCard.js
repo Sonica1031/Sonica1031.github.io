@@ -27,7 +27,7 @@ const WorkHistoryCard = prop =>{
       
         <CarouselItem
     
-        className="custom-tag"
+        className="container custom-tag"
         tag="div"
         key={workHistory.id}
         onExiting={() => setShowing(true)}
