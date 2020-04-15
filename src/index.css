@@ -104,7 +104,19 @@ html {
     padding: 10px;
     font-size: 2rem;
   }
-  
+  .link-tag{
+    font-size: 2rem;
+    color: orange;
+  }
+
+  .linking-links{
+    display: flex;
+    justify-content: space-around;
+  }
+  .link-tag:hover{
+    text-decoration: none;
+    color: white;
+  }
   body {
     background: url("./components/images/background.png");
     background-position: top center;
@@ -131,17 +143,6 @@ html {
     display: flex;
   }
 
-  .link-tag{
-    text-decoration: none;
-    font-size: 2rem;
-    display: flex;
-  }
-
-  .linking-links{
-    display: flex;
-    justify-content: space-around;
-    color: orange;
-  }
 @media only screen and (max-width: 1220px){
   .AboutTheme{
     flex-direction: column;
