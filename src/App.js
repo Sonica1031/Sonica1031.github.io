@@ -4,7 +4,7 @@ import NavBar from "./components/NavBar/NavBar";
 import {Route} from "react-router-dom";
 import Home from "./components/Home"
 import AboutMe from "./components/AboutMe"
-import Prices from "./components/Prices"
+import Samples from "./components/Samples"
 import WorkExperience from './components/WorkExperience';
 import SideImage from './components/images/SideImage.png';
 
@@ -20,7 +20,7 @@ function App() {
 
     <Route exact path="/about-me" component={AboutMe} />
     <Route exact path="/work-experience" component={WorkExperience} />
-    <Route exact path="/prices" component={Prices} />
+    <Route exact path="/samples" component={Samples} />
     <Route exact path="/" component={Home} />
     </div>
     </div>

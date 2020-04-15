@@ -131,6 +131,17 @@ html {
     display: flex;
   }
 
+  .link-tag{
+    text-decoration: none;
+    font-size: 2rem;
+    display: flex;
+  }
+
+  .linking-links{
+    display: flex;
+    justify-content: space-around;
+    color: orange;
+  }
 @media only screen and (max-width: 1220px){
   .AboutTheme{
     flex-direction: column;

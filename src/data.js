@@ -82,8 +82,8 @@ export const navItems = [{
 },
 {
     id: "4",
-    title: "Prices",
-    value: "prices"
+    title: "Samples",
+    value: "Samples"
 }
 ];
 
