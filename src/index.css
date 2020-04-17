@@ -126,6 +126,12 @@ html {
       body{
       background: url(".//components/images/backgroundtiny.png")
     }
+    .linking-links{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
   }
   
   p{
@@ -175,4 +181,8 @@ html {
   height: 40px;
   width: 90px;
   border-radius: 100%;
+}
+
+.pTagWidth{
+  width: 300px;
 }
