@@ -16,9 +16,10 @@
     "run": "^1.4.0"
   },
   "scripts": {
-    "start": "start",
-    "build": "build",
-    "test": "test"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
   "eslintConfig": {
     "extends": "react-app"
