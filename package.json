@@ -8,6 +8,7 @@
     "@testing-library/react": "^9.3.2",
     "@testing-library/user-event": "^7.1.2",
     "babel-preset-react-app": "^9.0.0",
+    "babel-runtime": "^6.26.0",
     "bootstrap": "^4.4.1",
     "build": "^0.1.4",
     "g": "^2.0.1",
@@ -40,6 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@babel/preset-react": "^7.24.7"
   }
 }
